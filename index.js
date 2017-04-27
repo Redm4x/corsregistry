@@ -2,7 +2,7 @@
 var port = process.env.PORT || 3000;
 
 // Where to proxy requests:
-var endpoint = 'https://skimdb.npmjs.com';
+var endpoint = 'https://registry.npmjs.org';
 
 var express = require('express');
 var proxy = require('express-http-proxy');
